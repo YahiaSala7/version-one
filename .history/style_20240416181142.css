@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100svh;
+}
+.parent img{
+    width: 100%;
+}
+@media (min-width:1280px) {
+    .parent img{
+        width: 100%;
+        height: 100svh;
+    }
+}
+.parent .img{
+    width: 100%;
+    position: relative;
+}

@@ -27,7 +27,7 @@ body{
 @media (min-width:1280px) {
     .parent img{
         width: 100%;
-        height: 99svh;
+        height: 100svh;
     }
 }
 .parent .img{
@@ -39,10 +39,10 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-30%,-45%)
+    transform: translate(-25%,-45%)
 }
 .parent .img .content p{
-    font-size: 38px;
+    font-size: 32px;
     direction: rtl;
     
     /* font-style: italic; */
@@ -56,11 +56,6 @@ body{
 .parent .img .content p:last-child{
     margin-right: 30px;
 }
-@media (max-width:1280px) {
-    .parent .img .content p{
-        font-size: 32px;
-    }
-}
 @media (max-width:991px) {
     .parent .img .content p{
         font-size: 24px;
@@ -68,22 +63,22 @@ body{
 }
 @media (max-width:767px) {
     .parent .img .content p{
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 @media (max-width:550px) {
     .parent .img .content p{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 @media (max-width:450px) {
     .parent .img .content p{
-        font-size: 10px;
+        font-size: 11px;
     }
 }
 @media (max-width:350px) {
     .parent .img .content p{
-        font-size: 7px;
+        font-size: 8px;
     }
 }
 @media (max-width:275px) {
@@ -95,4 +90,8 @@ body{
     .parent .img .content p{
         font-size: 5px;
     }
+}
+.custom-word{
+    font-family: 'themixarab';
+    font-weight: 100;
 }
